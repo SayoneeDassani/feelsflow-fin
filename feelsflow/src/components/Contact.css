@@ -1,0 +1,81 @@
+/* Contact Page Styling */
+.contact-page {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--light-navy);
+    border-radius: 8px;
+    color: var(--lightest-slate);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.contact-page h1, .contact-page h2 {
+    color: var(--green);
+    font-size: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-page h1 svg, .contact-page h2 svg {
+    margin-right: 10px;
+    color: var(--green);
+}
+
+.contact-page p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-page ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-page li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-page li svg {
+    margin-right: 10px;
+    color: var(--green);
+}
+
+.contact-page a {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-page a:hover {
+    text-decoration: underline;
+}
+
+.contact-page blockquote {
+    font-size: 18px;
+    font-style: italic;
+    background-color: var(--navy);
+    padding: 20px;
+    border-left: 5px solid var(--green);
+    margin: 30px 0;
+    border-radius: 4px;
+}
+
+.contact-page blockquote svg {
+    margin-right: 10px;
+    color: var(--green);
+}
+
+.contact-page strong {
+    color: var(--lightest-slate);
+    font-weight: bold;
+}
+.illustration {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}

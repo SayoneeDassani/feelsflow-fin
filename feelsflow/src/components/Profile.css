@@ -1,0 +1,77 @@
+/* Profile.css */
+.profile-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f9f9ff; /* Light pastel background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color if no image */
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+  }
+  
+  .profile-details h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .profile-details p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .edit-btn {
+    padding: 10px 20px;
+    background-color: #a685e2; /* Soft purple */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background-color: #927bd8;
+  }
+  .profile-tag {
+    display: inline-block;
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px 10px; /* Padding around text */
+    margin: 5px; /* Space between tags */
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.profile-section {
+    margin-bottom: 20px; /* Adds space between sections */
+}  
+
+.profile-tag {
+    display: inline-block;
+    background-color: #e0e0e0; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px 15px; /* Padding around text */
+    margin: 5px; /* Space between tags */
+    font-size: 0.9em; /* Adjust font size as needed */
+}
